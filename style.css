@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+}
+#QRimg{
+  margin: 0 auto;
+  max-height: 0px;
+  transition: all 4s ease-in-out;
+}
+#QRimg.showImg{
+  max-height: 300px;
+}
